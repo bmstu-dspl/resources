@@ -1,0 +1,21 @@
+name: mlmethods
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - seaborn
+  - nltk
+  - jupyter
+  - scipy
+  - numpy
+  - pandas
+  - geopandas
+  - rtree
+  - folium
+  - pip:
+    - gensim
+    - tensorflow==2.10.0
