@@ -2,7 +2,7 @@ name: mlmethods
 channels:
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.11
   - pip
   - scikit-learn
   - scikit-image
@@ -18,4 +18,4 @@ dependencies:
   - folium
   - pip:
     - gensim
-    - tensorflow==2.10.0
+    - tensorflow==2.15.1
